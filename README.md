@@ -119,28 +119,3 @@ cv2.destroyAllWindows()
 
 5. **Exit Condition**:
    - The loop continues until the 'q' key is pressed.
-
----
-
-### 6. Conclusion
-
-In this task, you learned about image recognition, its applications, challenges, and future trends. You also implemented a simple face recognition system using Python.
-
-### Next Steps
-
-1. **Test the Code**: Make sure you have an image file named `person.jpg` in your working directory.
-2. **Upload to GitHub**:
-
-   - Initialize a Git repository:
-     ```bash
-     git init
-     git add .
-     git commit -m "Initial commit of face recognition project"
-     git remote add origin https://github.com/username/repository-name.git
-     git push -u origin main
-     ```
-   - Replace `username` and `repository-name` with your GitHub username and the name of your repository.
-
-3. **Share the Link**: After pushing your code, share the GitHub link with your instructor.
-
-If you have any questions or need further assistance, feel free to ask!
