@@ -48,7 +48,7 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-# Release the capture
+# Release the video capture object to free up resources
 video_capture.release()
 # Close all OpenCV windows
 cv2.destroyAllWindows()
