@@ -1,6 +1,5 @@
 import face_recognition  # For face detection and recognition
 import cv2  # For image and video processing
-
 # Load an image file into a numpy array
 # Load an image file of a person for face recognition
 image_of_person = face_recognition.load_image_file("person.jpg")
@@ -48,7 +47,7 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-# Release the video capture object to free up resources
+# Release the capture
 video_capture.release()
 # Close all OpenCV windows
 cv2.destroyAllWindows()
