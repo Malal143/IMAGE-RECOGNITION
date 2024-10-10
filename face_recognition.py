@@ -1,5 +1,6 @@
 import face_recognition
 import cv2
+
 # Load an image file into a numpy array
 image_of_person = face_recognition.load_image_file("person.jpg")
 # Encode the face in the image
